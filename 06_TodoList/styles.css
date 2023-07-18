@@ -7,6 +7,7 @@
 .todos-bg-container {
   background-color: #f9fbfe;
   height: 100vh;
+  cursor: pointer;
 }
 .todos-heading {
   text-align: center;
@@ -39,9 +40,12 @@
 .todo-items-container {
   margin: 0px;
   padding: 0px;
+  cursor: pointer;
 }
 .todo-item-container {
   margin-top: 15px;
+  cursor: pointer;
+
 }
 .todo-user-input {
   background-color: white;
@@ -77,12 +81,16 @@
   border-top: none;
   border-bottom: none;
   border-radius: 4px;
+  cursor: pointer;
+
 }
 .checkbox-input {
   width: 20px;
   height: 20px;
   margin-top: 12px;
   margin-right: 12px;
+  cursor: pointer;
+
 }
 .checkbox-label {
   font-family: "Roboto";
@@ -99,9 +107,12 @@
 .delete-icon-container {
   text-align: right;
   width: 18%;
+  
 }
 .delete-icon {
   padding: 15px;
+  cursor: pointer;
+
 }
 .todo-item-container {
     margin-top: 15px;
